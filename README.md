@@ -11,12 +11,15 @@ https://scrape-the-news.herokuapp.com/
 ### Screen Shots
 
 ![Screen shot](public/assets/img/index.png)
-Scraped news articles from The Verge
+
+Scraped news articles from Screenrant
 
 ![Screen shot](public/assets/img/article.png)
+
 Article page to read each article
 
 ![Screen shot](public/assets/img/comments.png)
+
 Add comments by filling in the form
 
 ### Technologies used

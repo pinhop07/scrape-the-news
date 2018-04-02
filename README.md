@@ -6,7 +6,7 @@ Uses Cheerio to scrape news articles from a site and allows the user to make com
 
 ### Getting Started
 
-https://scrape-the-news.herokuapp.com/
+To try it out, open [Scrape the News](https://screenrant-scrape.herokuapp.com/) in your browser of choice.
 
 ### Screen Shots
 

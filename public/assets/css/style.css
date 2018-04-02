@@ -1,0 +1,58 @@
+body{
+  background-color: whitesmoke;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+nav .nav-wrapper {
+  background: #023336;
+}
+
+.btn{
+  background: #023336;
+}
+
+.articleBody{
+  height: 200px;
+  font-size: 20px;
+  overflow-y: scroll;
+  line-height: 150%;
+}
+
+#nameComment{
+  /*border-bottom: 2px solid #ec407a;*/
+  font-weight: bold;
+  background: #023336;
+  color: whitesmoke;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+ color: black;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #023336;
+ box-shadow: 0 1px 0 0 #67A69D;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #023336;
+}
+
+footer.page-footer {
+  padding-top: 5px;
+  background-color: #67A69D;
+}
+
+footer.page-footer .footer-copyright {
+  background: #023336;
+}
+

@@ -21,7 +21,7 @@ app.engine('handlebars', exphbs({
 app.set('view engine', 'handlebars');
 
 //connecting to MongoDB
-mongoose.connect('mongodb://admin:admin123@ds023463.mlab.com:23463/screenrant-db');
+mongoose.connect('mongodb://admin:admin1234@cluster0-shard-00-00.cf468.mongodb.net:27017,cluster0-shard-00-01.cf468.mongodb.net:27017,cluster0-shard-00-02.cf468.mongodb.net:27017/screenrant-db?ssl=true&replicaSet=atlas-vk72pn-shard-0&authSource=admin&retryWrites=true&w=majority');
 
 // mongoose.connect('mongodb://localhost/screenrant', {
 //   useMongoClient: true
